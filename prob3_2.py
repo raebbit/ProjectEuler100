@@ -12,7 +12,7 @@ def largest_primefactor(n):
     number = int(n)
     prime_factors = []
 
-    while number % 2 == 0 and number > 1:  # put all 2-factors in the list
+    while number % 2 == 0:  # put all 2-factors in the list
         prime_factors.append(2)
         number = number / 2
 
